@@ -7,7 +7,7 @@
             margin: 0;
             padding: 0;
             background: linear-gradient(45deg, #1a1a1a, #e3342f);
-            color: white;
+            color: black;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -45,8 +45,8 @@
                         <input type="number" step="0.01" name="preu" id="preu" placeholder="Preu" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required>
                     </div>
                     <div class="flex justify-end">
-                        <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">Add Knife</button>
-                        <a href="{{ route('knifes.index') }}" class="ml-2 bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded">Back to List</a>
+                        <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">Afegir Knife</button>
+                        <a href="{{ route('knifes.index') }}" class="ml-2 bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded">Tornar a la llista</a>
                     </div>
                 </form>
             </div>

@@ -7,7 +7,7 @@
             margin: 0;
             padding: 0;
             background: linear-gradient(45deg, #1a1a1a, #e3342f);
-            color: white;
+            color: black;
             height: 100vh;
             display: flex;
             flex-direction: column;
